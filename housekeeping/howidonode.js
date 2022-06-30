@@ -1,3 +1,3 @@
 setInterval(()=>{
-    console.log("1 second has passed")
-},1000);
+    console.log("0.5 second has passed")
+},500);
