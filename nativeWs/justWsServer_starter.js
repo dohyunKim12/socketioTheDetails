@@ -15,6 +15,7 @@ wss.on('connection', (ws, req) => {
     ws.send('Welcome to the websocket server!')
     ws.on('message', (data, isBinary) => {
         console.log(data)
+        console.log(isBinary)
     })
 })
 
